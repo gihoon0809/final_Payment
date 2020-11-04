@@ -19,6 +19,12 @@ public class Payment {
         Paid paid = new Paid();
         BeanUtils.copyProperties(this, paid);
         paid.publishAfterCommit();
+        
+          try {
+            Thread.sleep((long) (400 + Math.random() * 300));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
 
     }
