@@ -1,4 +1,4 @@
-package newpizza;
+package pizza;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 

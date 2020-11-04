@@ -1,4 +1,4 @@
-package newpizza;
+package pizza;
 
 import javax.persistence.*;
 import org.springframework.beans.BeanUtils;

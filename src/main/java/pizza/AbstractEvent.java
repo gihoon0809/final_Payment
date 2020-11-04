@@ -1,6 +1,6 @@
-package newpizza;
+package pizza;
 
-import newpizza.config.kafka.KafkaProcessor;
+import pizza.config.kafka.KafkaProcessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.messaging.MessageChannel;

@@ -1,5 +1,5 @@
-package newpizza;
-import newpizza.config.kafka.KafkaProcessor;
+package pizza;
+import pizza.config.kafka.KafkaProcessor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

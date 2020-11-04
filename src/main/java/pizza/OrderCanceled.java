@@ -1,4 +1,4 @@
-package newpizza;
+package pizza;
 
 public class OrderCanceled extends AbstractEvent {
 
